@@ -1,0 +1,116 @@
+@charset 'UTF-8';
+
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header { 
+    background-color: #00ff63;
+}
+
+header h1#inicio { 
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+   /* display: flex;*/
+}
+
+menu { 
+    display: flex;
+    margin-left: 10px;
+    gap: 15px;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+
+span  {
+   
+    flex-direction: row;
+       
+}
+.material-symbols-outlined{ 
+    display: flex;
+    align-items: center;
+    font-size: 33px;
+}
+
+
+div.intro { 
+    background-color:#f5f5f5;
+    
+    height: auto;
+    
+}
+
+div.intro  h1 { 
+   font-size: 30px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   padding: 30px;
+   flex-wrap: wrap;
+}
+
+        /*!!!!!!!!!!!!!!*/
+
+        /* Parte do Main*/
+
+    
+main { 
+    background-color:#f5f5f5;
+    height: auto;
+    width: 100%;
+}
+
+hr { 
+    background-color: red;
+    width: 25%;
+   margin: auto;
+   border: 1px solid red;
+}
+
+section.our-values p#inicio-values {
+    font-size: 30px; 
+    text-align: center;
+    padding: 10px;
+}
+
+section.our-values p#texto2 { 
+    text-align: justify;
+    margin-top: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 70%;
+}
+
+        /*!!!!*/
+/*Section Cursos */
+
+section.cursos h1 { 
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+section.cursos p {
+    text-align: center;
+    margin-top:10px;
+    font-size: 25px;
+}
+
+section.cursos p.textoCursos {
+    font-size: 16px;
+    text-align: center;
+}
+
+br { 
+    line-height: 1;
+}
